@@ -74,6 +74,7 @@ secondary color:#273246; */
     height: 700px; 
 }
 .program-list{
+    background-color: #fed2cb;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -84,4 +85,88 @@ secondary color:#273246; */
 .list img{
     height: 100px;
     width: 170px;
+}
+.small-banner2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('image/Design2.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.small-banner2 img{
+    height: 700px; 
+}
+.offer-banner{
+    background-image: url('image/6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.offer-title{
+    padding-left: 57%;
+    padding-top: 15%;
+}
+.offer-title h1{
+    color: #273246;
+    font-size: 45px;
+    line-height: 50px;
+}
+.offer-title p{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.offer-title button{
+    background-color: #fed2cb;
+    padding: 5px 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #273246;
+}
+.gallery{
+    background-image: url('image/Design3.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallery-title{
+    text-align: center;
+    padding-top: 5%;
+}
+.gallery-title h1{
+    font-size: 45px;
+    padding-bottom: 10px;
+    color: #273246;
+}
+.gallery-title p{
+    padding-bottom: 20px;
+}
+.gallery-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px;
+   
+}
+
+.gallery-box1{
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.gallery-box1 img{
+    height: 330px;
+    width: 300px;
+}
+.gallery-box1 h3{
+    padding: 10px;
+}
+.gallery-box1 p{
+    padding: 10px;
 }

@@ -137,7 +137,7 @@ secondary color:#273246; */
 }
 .gallery-title{
     text-align: center;
-    padding-top: 5%;
+    padding-top: 7%;
 }
 .gallery-title h1{
     font-size: 45px;
@@ -169,4 +169,75 @@ secondary color:#273246; */
 }
 .gallery-box1 p{
     padding: 10px;
+}
+.video-section{
+    height: 75vh;
+    background-color: #fed2cb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.video-section video{
+    height: 380px;
+    width: 550px;
+}
+.video-title h1{
+    font-size: 45px;
+    padding-bottom: 10px;
+    color: #273246;
+    line-height: 55px;
+}
+.video-title p{
+    padding-bottom: 20px;
+}
+.message{
+    text-align: center;
+    height: 80vh;
+    background-image: url('./image/Design2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message h1{
+    font-size: 45px;
+    color: #273246;
+    padding-top: 5%;
+}
+.message p{
+    padding-bottom: 25px;
+}
+.message input{
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    width: 65%;
+    background-color: rgb(245, 244, 244);
+    border-width: 1px;
+    border-color: #273246;
+}
+#info-message{
+    height: 200px;
+    width: 65%;
+    padding: 10px 20px;
+    border-width: 1px;
+    border-color: #273246;
+    background-color: rgb(245, 244, 244);
+}
+#submit{
+    width: 200px;
+    margin-top: 50px;
+    background-color: #273246;
+    color: #fed2cb;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #273246;
+    color: white;
+    height: 25vh;
+    padding-top: 5%;
+}
+.footer-container h4{
+    font-size: 25px;
+    color: #fed2cb;
+    padding-bottom: 10px;
 }
